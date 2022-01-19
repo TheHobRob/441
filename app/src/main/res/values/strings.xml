@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Lab0</string>
-    <string name="post">Post</string>
-    <string name="send">Send</string>
-    <string name="username">robbiejm</string>
-    <string name="message">Some short sample text.</string>
-</resources>
