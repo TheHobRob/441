@@ -18,7 +18,7 @@ def postchatt(request):
 def getchatts(request):
     if request.method != 'GET':
         return HttpResponse(status=404)
-    
+
     cursor = connection.cursor()
     cursor.execute('SELECT * FROM chatts ORDER BY time DESC;')
     rows = cursor.fetchall()
